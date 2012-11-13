@@ -13,13 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    tappcontroler.cpp \
+    GraphicsSimpleBrowser.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tappcontroler.h \
+    GraphicsSimpleBrowser.h
 
 FORMS    += mainwindow.ui
 
 MOC_DIR = $$SERVICE_DIR
 UI_DIR = $$SERVICE_DIR
 OBJECTS_DIR = $$SERVICE_DIR
-DESTDIR = $$SERVICE_DIR
+#DESTDIR = $$SERVICE_DIR
